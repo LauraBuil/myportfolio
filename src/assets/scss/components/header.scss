@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+  @media screen and (min-width: 768px) {}
+  &__logo {
+    width: 6rem;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .nav {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (min-width: 768px) {}
+    &__link {
+      position: relative;
+      display: inline-block;
+      text-align: right;
+      text-decoration: none;
+      list-style-type: none;
+      color: white;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+      transition: transform 200ms ease-in-out;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      width: 0;
+      height: 1px;
+      background-color: white;
+      transform: translateX(-50%);
+      transform-origin: center;
+      transition: width 250ms ease-in-out;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+  }
+}

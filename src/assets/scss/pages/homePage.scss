@@ -1,0 +1,72 @@
+.hero {
+  color: white;
+  margin: 0 2rem 2rem 2rem;
+  //&__img {
+  //  border-radius: 50%;
+  //  width: 20rem;
+  //  height: 20rem;
+  //  overflow: hidden;
+  //  box-shadow: inset -4px -4px 2px rgba(0, 0, 0, 0.25),
+  //    inset 4px 4px 2px rgba(0, 0, 0, 0.25),
+  //    -5px -5px 10px rgba(0, 0, 0, 1),
+  //    4px 4px 8px rgba(255, 255, 255, 0.1);
+  //  &__photo {
+  //    width: 110%;
+  //  }
+  //}
+  &__title {
+    font-size: 4.5rem;
+    font-family: 'JosefinSlab', sans-serif;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+  &__work {
+    font-size: 2rem;
+    font-family: 'SpaceMonoregular', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+  &__text {
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    text-align: justify;
+    margin: 1rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'SpaceMonoregular', sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 1rem 2rem;
+  &__card {
+    text-decoration: none;
+    color: white;
+    margin: 1rem 0;
+    width: 100%;
+    transition: transform 200ms ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+    &__title {
+      font-family: 'SpaceMonoregular', sans-serif;
+      font-size: 2rem;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    }
+    &__text {
+      font-family: 'Mulish', sans-serif;
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

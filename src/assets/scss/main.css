@@ -1,0 +1,185 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.header__logo {
+  width: 6rem;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+.header .nav {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header .nav__link {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 200ms ease-in-out;
+}
+.header .nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transform: translateX(-50%);
+  transform-origin: center;
+  transition: width 250ms ease-in-out;
+}
+.header .nav__link:hover::after {
+  width: 100%;
+}
+
+.hero {
+  color: white;
+  margin: 0 2rem 2rem 2rem;
+}
+.hero__title {
+  font-size: 4.5rem;
+  font-family: "JosefinSlab", sans-serif;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.hero__work {
+  font-size: 2rem;
+  font-family: "SpaceMonoregular", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.hero__text {
+  font-size: 1.2rem;
+  font-family: "Mulish", sans-serif;
+  text-align: justify;
+  margin: 1rem;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.hero__link {
+  text-decoration: none;
+  color: white;
+  font-family: "SpaceMonoregular", sans-serif;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 1rem 2rem;
+}
+.projects__card {
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0;
+  width: 100%;
+  transition: transform 200ms ease-in-out;
+}
+.projects__card:hover {
+  transform: scale(1.05);
+}
+.projects__card__title {
+  font-family: "SpaceMonoregular", sans-serif;
+  font-size: 2rem;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.projects__card__text {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin: 2rem 0;
+}
+.container__img {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../fonts/JetBrainsMono.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMonoItalic";
+  src: url("../fonts/JetBrainsMono-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("../fonts/SpaceMono-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: url("../fonts/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: url("../fonts/SpaceMono-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JosefinSlab";
+  src: url("../fonts/JosefinSlab-regular.ttf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "JosefinSlabItalic";
+  src: url("../fonts/JosefinSlab-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MulishItalic";
+  src: url("../fonts/Mulish-Italic.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+.bg__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.glassmorphism {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px) saturate(80%);
+  -webkit-backdrop-filter: blur(2px) saturate(80%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
