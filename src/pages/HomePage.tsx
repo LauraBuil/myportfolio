@@ -1,5 +1,7 @@
 // import me from '../assets/img/me.png'
-import Projects from '../components/Projects.tsx'
+// import Projects from '../components/Projects.tsx'
+import projectData from '../data/projects.json'
+import { Link } from 'react-router-dom'
 
 export default function HomePage() {
     return (
@@ -17,10 +19,20 @@ export default function HomePage() {
                     je m'engage à transformer vos idées en projets réussis.
                 </p>
             </section>
+            {/*<section className='projects' id='projets'>*/}
+            {/*    <Projects ProjectDetails={'/projectYoulens'} ProjectName={'Youlens'} ProjectDescription={'Youlens est une application web créée pour un vidéaste et photographe spécialisé dans le mariage.'}/>*/}
+            {/*    <Projects ProjectDetails={'/projectGaecChimounet'} ProjectName={'Gaec Chimounet'} ProjectDescription={'Gaec Chimounet est le site web d\'une entreprise de maraîchage bio.'}/>*/}
+            {/*    <Projects ProjectDetails={'/projectHRNet'} ProjectName={'HR Net'} ProjectDescription={'Youlens est une application web pour un vidéaste et photographe spécialisé dans le mariage.'}/>*/}
+            {/*</section>*/}
             <section className='projects' id='projets'>
-                <Projects ProjectDetails={'/projectYoulens'} ProjectName={'Pro Youlens'} ProjectDescription={'Youlens est une application web créée pour un vidéaste et photographe spécialisé dans le mariage.'}/>
-                <Projects ProjectDetails={'/projectGaecChimounet'} ProjectName={'Pro Gaec Chimounet'} ProjectDescription={'Gaec Chimounet est le site web d\'une entreprise de maraîchage bio.'}/>
-                <Projects ProjectDetails={''} ProjectName={'Youlens'} ProjectDescription={'Youlens est une application web pour un vidéaste et photographe spécialisé dans le mariage.'}/>
+                {projectData.map((project, index) => (
+                    <div key={index}>
+                        <Link to={`/project/${index}`} className='projects__card glassmorphism'>
+                            <h2 className='projects__card__title'>Projet {project.name}</h2>
+                            <p className='projects__card__text'>{project.minidescription}</p>
+                        </Link>
+                    </div>
+                ))}
             </section>
         </>
     )

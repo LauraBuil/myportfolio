@@ -2,9 +2,13 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './assets/scss/main.scss'
 import HomePage from './pages/HomePage.tsx'
-import ProjectYoulens from './pages/projects/ProjectYoulens.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import ProjectGaecChimounet from "./pages/projects/ProjectGaecChimounet.tsx";
+// import ProjectYoulens from './pages/projects/ProjectYoulens.tsx'
+// import ProjectGaecChimounet from './pages/projects/ProjectGaecChimounet.tsx'
+// import ProjectHRNet from './pages/projects/ProjectHRNet.tsx'
+import ProjectsList from './pages/projects/ProjectsList.tsx'
+
+//mettre une roulette aléatoire pour changer le tracer souris
 
 const router = createBrowserRouter([
     {
@@ -15,13 +19,22 @@ const router = createBrowserRouter([
                 element: <HomePage />,
             },
             {
-                path: '/projectYoulens',
-                element: <ProjectYoulens />,
+                path: '/project/:projectIndex',
+                element: <ProjectsList />,
             },
-            {
-                path: '/projectGaecChimounet',
-                element: <ProjectGaecChimounet />,
-            },
+
+            // {
+            //     path: '/projectYoulens',
+            //     element: <ProjectYoulens />,
+            // },
+            // {
+            //     path: '/projectGaecChimounet',
+            //     element: <ProjectGaecChimounet />,
+            // },
+            // {
+            //     path: '/projectHRNet',
+            //     element: <ProjectHRNet />,
+            // },
             // {
             //     path: '*',
             //     element: <NotFound/>,
