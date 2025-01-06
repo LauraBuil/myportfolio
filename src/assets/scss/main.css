@@ -84,21 +84,23 @@
   margin: 1rem 2rem;
 }
 .projects__card {
-  text-decoration: none;
-  color: white;
   margin: 1rem 0;
   width: 100%;
-  transition: transform 200ms ease-in-out;
+  transition: transform 190ms ease-in-out;
 }
 .projects__card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
-.projects__card__title {
+.projects__card__link {
+  text-decoration: none;
+  color: white;
+}
+.projects__card__link__title {
   font-family: "SpaceMonoregular", sans-serif;
   font-size: 2rem;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
-.projects__card__text {
+.projects__card__link__text {
   font-family: "Mulish", sans-serif;
   font-size: 1.2rem;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);

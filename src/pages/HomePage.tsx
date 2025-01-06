@@ -26,10 +26,10 @@ export default function HomePage() {
             {/*</section>*/}
             <section className='projects' id='projets'>
                 {projectData.map((project, index) => (
-                    <div key={index}>
-                        <Link to={`/project/${index}`} className='projects__card glassmorphism'>
-                            <h2 className='projects__card__title'>Projet {project.name}</h2>
-                            <p className='projects__card__text'>{project.minidescription}</p>
+                    <div key={index} className='projects__card glassmorphism'>
+                        <Link to={`/project/${index}`} className='projects__card__link'>
+                            <h2 className='projects__card__link__title'>Projet {project.name}</h2>
+                            <p className='projects__card__link__text'>{project.minidescription}</p>
                         </Link>
                     </div>
                 ))}
