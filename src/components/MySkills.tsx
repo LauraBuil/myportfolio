@@ -42,7 +42,7 @@ export default function MySkills() {
                         </div>
                         <div>
                             <li className='skills__container__list__text'>Persévérance</li>
-                            <li className='skills__container__list__text'>Aime apprendre continuellement</li>
+                            <li className='skills__container__list__text'>Aime apprendre<br/> continuellement</li>
                         </div>
                     </ul>
                 </div>

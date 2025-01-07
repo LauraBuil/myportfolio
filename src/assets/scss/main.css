@@ -370,11 +370,6 @@
   color: white;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
-@media (min-width: 320px) and (max-width: 374px) {
-  .me__text {
-    font-size: 1rem;
-  }
-}
 @media (min-width: 768px) {
   .me__text {
     font-size: 1.2rem;
@@ -446,6 +441,11 @@
   .skills {
     margin: 4rem 20rem;
   }
+}
+.skills__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (min-width: 1366px) {
   .skills__container {
