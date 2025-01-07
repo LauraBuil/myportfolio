@@ -308,7 +308,7 @@
 .contact__text {
   font-family: "SpaceMonoregular", sans-serif;
   color: white;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   transition: transform 150ms ease-in-out;
