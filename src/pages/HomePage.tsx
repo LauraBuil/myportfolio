@@ -1,6 +1,7 @@
 import projectData from '../data/projects.json'
 import { Link } from 'react-router-dom'
 import Contact from '../pages/Contact.tsx'
+import MySkills from '../components/MySkills.tsx'
 
 export default function HomePage() {
     return (
@@ -15,6 +16,7 @@ export default function HomePage() {
                             je m'engage à transformer vos idées en projets réussis.
                         </p>
                     </section>
+            <MySkills/>
                     <section className='projects' id='projets'>
                         {projectData.map((project, index) => (
                             <div key={index} className='projects__card glassmorphism'>

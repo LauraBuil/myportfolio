@@ -4,11 +4,12 @@ export default function Contact() {
         <>
             <section className='contact' id='contact'>
                 <h1 className='contact__title'>Me contacter</h1>
-                <p className='contact__text'>E-mail: <a className='contact__text__link'
-                                                        href="mailto:buillaura0210@gmail.com">buillaura0210@gmail.com</a>
+                <p className='contact__text'>E-mail:
+                    <a className='contact__text__link' href="mailto:buillaura0210@gmail.com"> buillaura0210@gmail.com</a>
                 </p>
-                <p className='contact__text'>Téléphone: <a className='contact__text__link' href="tel:+33783053491">07 83
-                    05 34 91</a></p>
+                <p className='contact__text'>Téléphone:
+                    <a className='contact__text__link' href="tel:+33783053491"> 07 83 05 34 91</a>
+                </p>
                 <section className='me'>
                     <h1 className='me__title'>Qui suis-je?</h1>
                     <p className='me__text'>Je suis Laura BUIL, développeuse front-end passionnée depuis
@@ -28,7 +29,10 @@ export default function Contact() {
                         J'aime rendre l'expérience utilisateur la plus agréable
                         possible. Je cherche à ce que la personne qui visite mes sites ait un sentiment
                         d'interraction avec celui-ci et un goût de reviens-y (il doit me rester du
-                        marketing dans les veines)</p>
+                        marketing dans les veines)
+                        <br/>
+                        Sinon dans la vie, je suis passionnée de jeux vidéo compétitifs sur PC, je suis golfeuse depuis l'été 2024 et j'aime les animaux et la photographie.
+                    </p>
                 </section>
             </section>
         </>
