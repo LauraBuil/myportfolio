@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ProjectsList from './pages/projects/ProjectsList.tsx'
 
 //mettre une roulette aléatoire pour changer le tracer souris
+// mettre la forme de Ney
 
 const router = createBrowserRouter([
     {

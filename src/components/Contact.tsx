@@ -7,9 +7,9 @@ export default function Contact() {
                 <a className='contact__text' href="mailto:buillaura0210@gmail.com">
                     E-mail: buillaura0210@gmail.com
                 </a>
-                <a className='contact__text' href="tel:+33783053491">
-                    Téléphone: 07 83 05 34 91
-                </a>
+                {/*<a className='contact__text' href="tel:+33783053491">*/}
+                {/*    Téléphone: 07 83 05 34 91*/}
+                {/*</a>*/}
                 <section className='me glassmorphism'>
                     <h1 className='me__title'>Qui suis-je?</h1>
                     <p className='me__text'>Je m'appelle Laura BUIL, développeuse front-end

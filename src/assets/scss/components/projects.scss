@@ -9,4 +9,10 @@
 .projectTitle {
   font-size: 3.3rem;
   letter-spacing: 0.2rem;
+  @media (min-width: 320px) and (max-width: 374px) {
+    font-size: 3rem;
+  }
+  @media (min-width: 1920px){
+    font-size: 5rem;
+  }
 }

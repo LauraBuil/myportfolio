@@ -20,6 +20,9 @@
       &:hover {
         transform: scale(1.05);
       }
+      @media (min-width: 1366px){
+        font-size: 1.5rem;
+      }
     }
   }
 }

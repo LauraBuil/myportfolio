@@ -1,6 +1,6 @@
 import projectData from '../data/projects.json'
 import { Link } from 'react-router-dom'
-import Contact from '../pages/Contact.tsx'
+import Contact from '../components/Contact.tsx'
 import MySkills from '../components/MySkills.tsx'
 
 export default function HomePage() {
