@@ -4,13 +4,13 @@ export default function Contact() {
         <>
             <section className='contact' id='contact'>
                 <h1 className='contact__title'>Me contacter</h1>
-                <p className='contact__text'>E-mail:
-                    <a className='contact__text__link' href="mailto:buillaura0210@gmail.com"> buillaura0210@gmail.com</a>
-                </p>
-                <p className='contact__text'>Téléphone:
-                    <a className='contact__text__link' href="tel:+33783053491"> 07 83 05 34 91</a>
-                </p>
-                <section className='me'>
+                <a className='contact__text' href="mailto:buillaura0210@gmail.com">
+                    E-mail: buillaura0210@gmail.com
+                </a>
+                <a className='contact__text' href="tel:+33783053491">
+                    Téléphone: 07 83 05 34 91
+                </a>
+                <section className='me glassmorphism'>
                     <h1 className='me__title'>Qui suis-je?</h1>
                     <p className='me__text'>Je m'appelle Laura BUIL, développeuse front-end
                         passionnée avec plus de trois ans d'expérience.

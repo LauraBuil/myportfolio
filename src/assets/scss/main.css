@@ -81,7 +81,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  margin: 1rem 2rem;
+  margin: 1rem 2rem 0 2rem;
 }
 .projects__card {
   margin: 1rem 0;
@@ -125,10 +125,9 @@
   margin: 2rem;
 }
 .contact__title {
-  font-family: "JosefinSlab", sans-serif;
-  font-size: 2.5rem;
+  font-family: "SpaceMonoRegular", sans-serif;
+  font-size: 2rem;
   text-align: center;
-  letter-spacing: 0.1rem;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   color: white;
   margin: 0 2rem 2rem 2rem;
@@ -137,10 +136,12 @@
   font-family: "SpaceMonoregular", sans-serif;
   color: white;
   text-align: left;
-}
-.contact__text__link {
   text-decoration: none;
   color: white;
+  transition: transform 150ms ease-in-out;
+}
+.contact__text:hover {
+  transform: scale(1.05);
 }
 
 .me {
@@ -148,16 +149,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 2rem;
+  margin: 2.5rem 0 2rem 0;
 }
 .me__title {
-  font-family: "JosefinSlab", sans-serif;
-  font-size: 2.5rem;
+  font-family: "SpaceMonoRegular", sans-serif;
+  font-size: 2rem;
   text-align: center;
-  letter-spacing: 0.3rem;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   color: white;
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 }
 .me__text {
   font-size: 1.2rem;
@@ -174,10 +174,23 @@
   margin: 2rem;
 }
 .footer__text {
+  display: flex;
+  flex-direction: column;
   font-family: "Mulish", sans-serif;
   color: white;
   letter-spacing: 0.3rem;
+  font-size: 0.8rem;
   text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.footer__text__link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: transform 150ms ease-in-out;
+}
+.footer__text__link:hover {
+  transform: scale(1.05);
 }
 
 .skills {
@@ -214,14 +227,6 @@
 }
 
 @font-face {
-  font-family: "JetBrainsMono";
-  src: url("../fonts/JetBrainsMono.ttf") format("truetype");
-}
-@font-face {
-  font-family: "JetBrainsMonoItalic";
-  src: url("../fonts/JetBrainsMono-Italic.ttf") format("truetype");
-}
-@font-face {
   font-family: "SpaceMonoBold";
   src: url("../fonts/SpaceMono-Bold.ttf") format("truetype");
 }
@@ -229,10 +234,6 @@
   font-family: "SpaceMonoRegular";
   src: url("../fonts/SpaceMono-Regular.ttf") format("truetype");
   font-weight: 900;
-}
-@font-face {
-  font-family: "SpaceMonoItalic";
-  src: url("../fonts/SpaceMono-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "JosefinSlab";
@@ -247,18 +248,10 @@
   font-family: "Mulish";
   src: url("../fonts/Mulish-Regular.ttf") format("truetype");
 }
-@font-face {
-  font-family: "MulishItalic";
-  src: url("../fonts/Mulish-Italic.ttf") format("truetype");
-}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  height: 100%;
 }
 
 .bg {

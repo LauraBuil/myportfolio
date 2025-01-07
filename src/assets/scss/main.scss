@@ -9,14 +9,6 @@
 
 //fonts
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('../fonts/JetBrainsMono.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'JetBrainsMonoItalic';
-  src: url('../fonts/JetBrainsMono-Italic.ttf') format('truetype');
-}
-@font-face {
   font-family: 'SpaceMonoBold';
   src: url('../fonts/SpaceMono-Bold.ttf') format('truetype');
 }
@@ -24,10 +16,6 @@
   font-family: 'SpaceMonoRegular';
   src: url('../fonts/SpaceMono-Regular.ttf') format('truetype');
   font-weight: 900;
-}
-@font-face {
-  font-family: 'SpaceMonoItalic';
-  src: url('../fonts/SpaceMono-Italic.ttf') format('truetype');
 }
 @font-face {
   font-family: 'JosefinSlab';
@@ -42,22 +30,11 @@
   font-family: 'Mulish';
   src: url('../fonts/Mulish-Regular.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'MulishItalic';
-  src: url('../fonts/Mulish-Italic.ttf') format('truetype');
-}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  height: 100%;
-  //background: linear-gradient(#1D1D1D, #000000);
-  //background-image: url('../img/background.webp');
-  //background-repeat: no-repeat;
 }
 
 .bg {
