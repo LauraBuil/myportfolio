@@ -1,7 +1,6 @@
-import projectData from '../data/projects.json'
-import { Link } from 'react-router-dom'
 import Contact from '../components/Contact.tsx'
 import MySkills from '../components/MySkills.tsx'
+import Projects from '../components/Projects.tsx'
 
 export default function HomePage() {
     return (
@@ -17,16 +16,7 @@ export default function HomePage() {
                         </p>
                     </section>
             <MySkills/>
-                    <section className='projects' id='projets'>
-                        {projectData.map((project, index) => (
-                            <div key={index} className='projects__card glassmorphism'>
-                                <Link to={`/project/${index}`} className='projects__card__link'>
-                                    <h2 className='projects__card__link__title'>Projet {project.name}</h2>
-                                    <p className='projects__card__link__text'>{project.minidescription}</p>
-                                </Link>
-                            </div>
-                        ))}
-                    </section>
+            <Projects />
             <Contact/>
 
         </>

@@ -19,15 +19,21 @@ export default function Header() {
         }
     }
 
+    const isActive = (path: string) => {
+        if (path === '/' && location.pathname === '/') return true // Page d'accueil
+        if (path !== '/' && location.pathname.includes(path)) return true // Autres pages avec ID
+        return false
+    }
+
     return (
         <div className='header'>
             <Link to='' className='header__logo'>
                 <img src={logo} alt='Logo'/>
             </Link>
             <div className='nav'>
-                <Link to='' className='nav__link'>accueil</Link>
-                <p onClick={() => handleNavigation('projets')} className='nav__link'>projets</p>
-                <p onClick={() => handleNavigation('contact')} className='nav__link'>contact</p>
+                <Link to='' className={`nav__link ${isActive('/') ? 'active' : ''}`}>accueil</Link>
+                <p onClick={() => handleNavigation('projets')} className={`nav__link ${isActive('projets') ? 'active' : ''}`}>projets</p>
+                <p onClick={() => handleNavigation('contact')} className={`nav__link ${isActive('contact') ? 'active' : ''}`}>contact</p>
             </div>
         </div>
     )
