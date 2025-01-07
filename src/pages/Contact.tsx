@@ -12,26 +12,31 @@ export default function Contact() {
                 </p>
                 <section className='me'>
                     <h1 className='me__title'>Qui suis-je?</h1>
-                    <p className='me__text'>Je suis Laura BUIL, développeuse front-end passionnée depuis
-                        plus de 3 ans maintenant.
-                        <br/>
-                        Avant, j'ai été adjointe de magasin Maxi Zoo et
-                        dans le commerce pendant 7 ans.
-                        <br/>
-                        Concernant le dev, tout à commencé après la crise covid. Je me suis dit que je
-                        voulais faire autre chose, je me suis d'abord dirigé vers le WebDesign, pensant
-                        que je serai incapable de coder toute la journée et pendant cette formation,
-                        je me suis rendu compte que c'était carrément le code qui me faisait vibrer.
-                        <br/>
-                        Construire des trucs à partir de rien, corriger des bugs, s'arracher les cheveux
-                        sur des algo, j'adore ça.
-                        <br/>
-                        J'aime rendre l'expérience utilisateur la plus agréable
-                        possible. Je cherche à ce que la personne qui visite mes sites ait un sentiment
-                        d'interaction avec celui-ci et un goût de reviens-y (il doit me rester du
-                        marketing dans les veines)
-                        <br/>
-                        Sinon dans la vie, je suis passionnée de jeux vidéo compétitifs sur PC, je suis golfeuse depuis l'été 2024 et j'aime les animaux et la photographie.
+                    <p className='me__text'>Je m'appelle Laura BUIL, développeuse front-end
+                        passionnée avec plus de trois ans d'expérience.
+                        <br />
+                        Avant de me lancer dans le développement, j'ai travaillé
+                        pendant sept ans dans le secteur du commerce, notamment en tant
+                        qu'adjointe de magasin chez Maxi Zoo.
+                        <br />
+                        Mon aventure dans le développement a commencé après la crise
+                        de la COVID-19. Cherchant une nouvelle direction, je me suis
+                        initialement orientée vers le WebDesign, pensant que coder toute
+                        la journée ne serait pas pour moi. Cependant, au fil de ma formation,
+                        j'ai découvert que c'était justement le développement qui m'animait.
+                        <br />
+                        Créer à partir de rien, résoudre des bugs complexes, relever
+                        des défis algorithmiques: ce sont des aspects du métier qui me
+                        passionnent profondément.
+                        <br />
+                        Mon objectif est de rendre l'expérience utilisateur aussi fluide
+                        et agréable que possible. J'aime concevoir des interfaces qui
+                        suscitent une véritable interaction et qui incitent les utilisateurs
+                        à revenir (peut-être un héritage de mes années dans le marketing).
+                        <br />
+                        En dehors de mon travail, je suis une passionnée de jeux vidéo
+                        compétitifs sur PC, de golf depuis l'été 2024, et j'apprécie également
+                        la photographie et les animaux.
                     </p>
                 </section>
             </section>
