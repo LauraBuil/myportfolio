@@ -27,7 +27,7 @@ export default function Header() {
             <div className='nav'>
                 <Link to='' className='nav__link'>accueil</Link>
                 <p onClick={() => handleNavigation('projets')} className='nav__link'>projets</p>
-                <Link to='/contact' className='nav__link'>contact</Link>
+                <p onClick={() => handleNavigation('contact')} className='nav__link'>contact</p>
             </div>
         </div>
     )

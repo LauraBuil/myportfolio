@@ -1,15 +1,11 @@
-// import me from '../assets/img/me.png'
-// import Projects from '../components/Projects.tsx'
 import projectData from '../data/projects.json'
 import { Link } from 'react-router-dom'
+import Contact from '../pages/Contact.tsx'
 
 export default function HomePage() {
     return (
         <>
                     <section className='hero glassmorphism'>
-                        {/*<div className='hero__img'>*/}
-                        {/*    <img src={me} alt="Photo de Laura Buil" className='hero__img__photo'/>*/}
-                        {/*</div>*/}
                         <h1 className='hero__title'>Buil Laura</h1>
                         <h2 className='hero__work'>Développeuse Front-End</h2>
                         <p className='hero__text'>Passionnée et persévérante,
@@ -19,11 +15,6 @@ export default function HomePage() {
                             je m'engage à transformer vos idées en projets réussis.
                         </p>
                     </section>
-                    {/*<section className='projects' id='projets'>*/}
-                    {/*    <Projects ProjectDetails={'/projectYoulens'} ProjectName={'Youlens'} ProjectDescription={'Youlens est une application web créée pour un vidéaste et photographe spécialisé dans le mariage.'}/>*/}
-                    {/*    <Projects ProjectDetails={'/projectGaecChimounet'} ProjectName={'Gaec Chimounet'} ProjectDescription={'Gaec Chimounet est le site web d\'une entreprise de maraîchage bio.'}/>*/}
-                    {/*    <Projects ProjectDetails={'/projectHRNet'} ProjectName={'HR Net'} ProjectDescription={'Youlens est une application web pour un vidéaste et photographe spécialisé dans le mariage.'}/>*/}
-                    {/*</section>*/}
                     <section className='projects' id='projets'>
                         {projectData.map((project, index) => (
                             <div key={index} className='projects__card glassmorphism'>
@@ -34,6 +25,7 @@ export default function HomePage() {
                             </div>
                         ))}
                     </section>
+            <Contact/>
 
         </>
 )

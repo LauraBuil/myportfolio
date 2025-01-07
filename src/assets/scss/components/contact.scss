@@ -1,0 +1,48 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  &__title {
+    font-family: 'JosefinSlab', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 2rem 0;
+  }
+  &__text {
+    font-family: 'SpaceMonoregular', sans-serif;
+    color: white;
+    text-align: left;
+    &__link {
+      text-decoration: none;
+      color: white;
+    }
+    //text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  &__title {
+    font-family: 'JosefinSlab', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 2rem 0;
+  }
+  &__text {
+    font-size: 1.2rem;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+}
