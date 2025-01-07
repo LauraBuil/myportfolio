@@ -28,7 +28,7 @@ export default function Contact() {
                         <br/>
                         J'aime rendre l'expérience utilisateur la plus agréable
                         possible. Je cherche à ce que la personne qui visite mes sites ait un sentiment
-                        d'interraction avec celui-ci et un goût de reviens-y (il doit me rester du
+                        d'interaction avec celui-ci et un goût de reviens-y (il doit me rester du
                         marketing dans les veines)
                         <br/>
                         Sinon dans la vie, je suis passionnée de jeux vidéo compétitifs sur PC, je suis golfeuse depuis l'été 2024 et j'aime les animaux et la photographie.
