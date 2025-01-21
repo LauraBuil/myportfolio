@@ -92,7 +92,7 @@
   }
   .header .nav.is-open, .header .nav.is-closed {
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px) saturate(100%);
