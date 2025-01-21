@@ -25,7 +25,8 @@
   }
 }
 .header__logo {
-  width: 6rem;
+  width: 30%;
+  height: auto;
   display: flex;
   align-self: center;
   justify-content: space-between;
