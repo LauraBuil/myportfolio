@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .header {
   display: flex;
   flex-direction: row;
@@ -34,6 +33,7 @@
 .header .nav {
   font-family: "Mulish", sans-serif;
   font-size: 1.7rem;
+  letter-spacing: 0.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -79,33 +79,85 @@
 .header .nav__link:hover::after {
   width: 100%;
 }
-.header .menu-toggle {
-  display: none; /* Caché par défaut */
-  background: none;
-  border: none;
+.header .menu {
+  display: none;
   cursor: pointer;
 }
-.header .menu-toggle svg {
-  color: white;
-  width: 4rem;
+.header .menu-toggle {
+  display: none;
 }
-.header .nav-open {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 60px; /* Ajustez selon la hauteur du header */
-  left: 0;
-  right: 0;
-  background-color: white;
-  padding: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header .nav {
     display: none;
   }
+  .header .nav.is-open, .header .nav.is-closed {
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px) saturate(100%);
+    -webkit-backdrop-filter: blur(2px) saturate(80%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15rem 3rem;
+    border-radius: 0 0 0 10px;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    animation: slideIn 0.3s forwards;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 767px) and (min-width: 280px) {
+  .header .nav.is-open, .header .nav.is-closed {
+    width: 15rem;
+    height: 30rem;
+  }
+}
+@media (max-width: 767px) and (min-width: 310px) {
+  .header .nav.is-open, .header .nav.is-closed {
+    width: 18rem;
+    height: 30rem;
+  }
+}
+@media (max-width: 767px) and (min-width: 320px) {
+  .header .nav.is-open, .header .nav.is-closed {
+    width: 30rem;
+    height: 50rem;
+  }
+}
+@media (max-width: 767px) {
+  .header .nav.is-closed {
+    animation: slideOut 0.3s forwards;
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  .header .menu {
+    display: block;
+    color: white;
+    width: 5rem;
+  }
   .header .menu-toggle {
-    display: block; /* Affiche le menu burger */
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    display: block;
+    color: white;
+    width: 5rem;
   }
 }
 
