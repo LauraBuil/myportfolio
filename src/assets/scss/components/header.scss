@@ -18,6 +18,18 @@
   &__logo {
     width: 30%;
     height: auto;
+    @media (min-width: 600px){
+      width: 20%;
+      height: auto;
+    }
+    @media (min-width: 900px){
+      width: 15%;
+      height: auto;
+    }
+    @media (min-width: 1280px){
+      width: 10%;
+      height: auto;
+    }
   }
   .nav {
     font-family: 'Mulish', sans-serif;
