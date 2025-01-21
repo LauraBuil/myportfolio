@@ -66,4 +66,34 @@
     }
   }
   }
+  .menu-toggle {
+    display: none; /* Caché par défaut */
+    background: none;
+    border: none;
+    cursor: pointer;
+    & svg {
+      color: white;
+      width: 4rem;
+    }
+  }
+  .nav-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Ajustez selon la hauteur du header */
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+
+    .menu-toggle {
+      display: block; /* Affiche le menu burger */
+    }
+  }
 }

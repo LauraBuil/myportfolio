@@ -13,7 +13,7 @@ export default function Contact() {
                 <section className='me glassmorphism'>
                     <h1 className='me__title'>Qui suis-je?</h1>
                     <p className='me__text'>Je m'appelle Laura BUIL, développeuse front-end
-                        passionnée avec plus de trois ans d'expérience.
+                        passionnée ayant plus de deux ans d'expérience.
                         <br />
                         Avant de me lancer dans le développement, j'ai travaillé
                         pendant sept ans dans le secteur du commerce, notamment en tant
@@ -23,7 +23,7 @@ export default function Contact() {
                         de la COVID-19. Cherchant une nouvelle direction, je me suis
                         initialement orientée vers le WebDesign, pensant que coder toute
                         la journée ne serait pas pour moi. Cependant, au fil de ma formation,
-                        j'ai découvert que c'était justement le développement qui m'animait.
+                        j'ai découvert que le développement m'animait.
                         <br />
                         Créer à partir de rien, résoudre des bugs complexes, relever
                         des défis algorithmiques: ce sont des aspects du métier qui me
