@@ -243,6 +243,11 @@
     margin: 1rem 0 0 0;
   }
 }
+@media (max-width: 410px) {
+  .hero__text {
+    text-align: center;
+  }
+}
 @media (min-width: 1366px) {
   .hero__text {
     margin: 2rem 8rem;
