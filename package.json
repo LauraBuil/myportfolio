@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
     "@types/react-router-dom": "^5.3.3",
+    "@vercel/analytics": "^1.4.1",
     "clsx": "^2.1.1",
     "eslint-plugin-react": "^7.37.2",
     "framer-motion": "^11.18.2",
