@@ -27,7 +27,7 @@ export default function DetailsProjects({ProjectName, ProjectDescription, Projec
                 <ExternalLink to={ProjectLink} className='hero__link'>
                     Visiter le site
                 </ExternalLink><br/>
-                <a href='https://www.npmjs.com/package/react-auto-close-modal' target='_blank' className='hero__link'>Voir le plug-in npm</a>
+                {/*<a href='https://www.npmjs.com/package/react-auto-close-modal' target='_blank' className='hero__link'>Voir le plug-in npm</a>*/}
             </section>
         </>
     )

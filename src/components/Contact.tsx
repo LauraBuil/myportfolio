@@ -12,7 +12,7 @@ export default function Contact() {
                 {/*</a>*/}
                 <section className='me glassmorphism'>
                     <h1 className='me__title'>Qui suis-je?</h1>
-                    <p className='me__text'>Je m'appelle Laura BUIL, développeuse front-end
+                    <p className='me__text'>Je m'appelle Laura BUIL, j'ai 31 ans, développeuse front-end
                         passionnée ayant plus de deux ans d'expérience.
                         <br />
                         Avant de me lancer dans le développement, j'ai travaillé
