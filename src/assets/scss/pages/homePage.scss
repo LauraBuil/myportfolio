@@ -98,6 +98,9 @@
     transition: transform 190ms ease-in-out;
     &:hover {
       transform: scale(1.02);
+      .iconBall {
+        transform: rotate(360deg);
+      }
     }
     @media (min-width: 768px){
       height: 90%;
@@ -121,6 +124,12 @@
           font-size: 1.4rem;
         }
       }
+    }
+    .iconBall {
+      width: 10%;
+      display: flex;
+      justify-self: center;
+      transition: transform 1800ms cubic-bezier(.16,1.08,.83,1);
     }
   }
 }

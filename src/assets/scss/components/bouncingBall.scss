@@ -1,0 +1,41 @@
+.bouncingBall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //width: 82vw;
+  //height: 20vh;
+  &__container {
+    //position: relative;
+    //width: 100%;
+    //height: 100%;
+    //overflow: hidden;
+    &__img {
+      //position: absolute;
+      //bottom: 0;
+      //width: 6rem;
+      //height: auto;
+      //animation: moveBounce 6s infinite cubic-bezier(), rotate 2s infinite linear;
+
+      /* Animation du rebond */
+      //@keyframes moveBounce {
+      //  0% { left: 0; bottom: 0; transform: scaleX(1); }
+      //  10% { bottom: 60px; }
+      //  20% { bottom: 0; }
+      //  30% { bottom: 40px; }
+      //  40% { bottom: 0; }
+      //  50% { left: 92%; bottom: 30px; transform: scaleX(1); } /* Arrive au bord droit */
+      //  60% { bottom: 0; }
+      //  70% { bottom: 40px; transform: scaleX(-1); } /* Inverse la direction */
+      //  80% { bottom: 0; }
+      //  90% { bottom: 50px; }
+      //  100% { left: 0; bottom: 0; transform: scaleX(-1); } /* Revient à gauche */
+      //}
+
+      /* Animation de rotation */
+      //@keyframes rotate {
+      //  0% { transform: rotate(0deg); }
+      //  100% { transform: rotate(360deg); }
+      //}
+    }
+  }
+}

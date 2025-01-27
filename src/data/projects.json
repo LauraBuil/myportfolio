@@ -5,7 +5,7 @@
     "description": "Projet Professionnel, Vidéaste et photographe",
     "details": "Ce projet consistait à créer l'application web responsive Youlens, vidéaste et photographe spécialisé dans le mariage à partir de maquettes. Youlens est une application codée en ReactJS qui regroupe une gallerie d'images, un slider ainsi qu'un formulaire de contact avec envoi de mail automatique en back-end.",
     "img": ["../img/youlens.webp"],
-    "link": ["https://youlens.fr"]
+    "link": "https://youlens.fr"
   },
   {
     "name": "Gaec Chimounet",

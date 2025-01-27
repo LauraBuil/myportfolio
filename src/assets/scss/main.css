@@ -316,6 +316,9 @@
 .projects__card:hover {
   transform: scale(1.02);
 }
+.projects__card:hover .iconBall {
+  transform: rotate(360deg);
+}
 @media (min-width: 768px) {
   .projects__card {
     height: 90%;
@@ -344,6 +347,12 @@
   .projects__card__link__text {
     font-size: 1.4rem;
   }
+}
+.projects__card .iconBall {
+  width: 10%;
+  display: flex;
+  justify-self: center;
+  transition: transform 1800ms cubic-bezier(0.16, 1.08, 0.83, 1);
 }
 
 .container {
@@ -612,6 +621,16 @@
   .skills__container__list__text {
     font-size: 1.4rem;
   }
+}
+
+.bouncingBall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bouncingBall__container__img {
+  /* Animation du rebond */
+  /* Animation de rotation */
 }
 
 @font-face {
