@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# Bonjour, moi c’est Laura BUIL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Développeuse **fullstack** passionnée, je conçois des applications web à la fois **performantes, intuitives et bien structurées**.
 
-Currently, two official plugins are available:
+## À propos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Après **sept années dans le commerce**, dont une expérience en tant qu’**adjointe de magasin chez Maxi Zoo**, j’ai choisi de me reconvertir dans le développement à la suite de la crise de la COVID-19.
 
-## Expanding the ESLint configuration
+Initialement attirée par le **WebDesign**, j’ai découvert au cours de ma formation une véritable passion pour le code, la logique et la résolution de problèmes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Aujourd’hui, je m’appuie sur :
 
-- Configure the top-level `parserOptions` property like this:
+- **plus de deux ans d’expérience dans le développement**
+- **plus d’un an d’expérience en fullstack chez ODAPTOS**
+- **deux années de formation en conception et développement de logiciels et d’applications**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Ce que j’aime dans le développement
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Créer des projets de A à Z
+- Résoudre des bugs complexes
+- Relever des défis algorithmiques
+- Concevoir des interfaces engageantes
+- Développer des backends fiables et optimisés
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Mon objectif est simple : offrir une **expérience utilisateur fluide et agréable**, grâce à des interfaces soignées et des bases techniques solides.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## En dehors du code
+
+Quand je ne développe pas, j’aime :
+
+- les **jeux vidéo compétitifs sur PC**
+- le **golf**
+- les **animaux**
+- la **photographie**
+
+## Liens
+
+- **LinkedIn** : https://www.linkedin.com/in/laura-buil-213655254/
+- **Portfolio** : https://laurabuil.vercel.app/
