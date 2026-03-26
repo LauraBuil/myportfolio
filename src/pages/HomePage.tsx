@@ -6,8 +6,8 @@ export default function HomePage() {
     return (
         <>
                     <section className='hero glassmorphism'>
-                        <h1 className='hero__title'>Buil Laura</h1>
-                        <h2 className='hero__work'>Développeuse Front-End</h2>
+                        <h1 className='hero__title'>Laura Buil</h1>
+                        <h2 className='hero__work'>Développeuse Fullstack</h2>
                         <p className='hero__text'>Passionnée et persévérante,<br/>
                             je conçois des applications web sur mesure,
                             où chaque détail compte pour offrir une expérience

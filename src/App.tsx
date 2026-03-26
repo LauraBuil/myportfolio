@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Header from './common/Header.tsx'
 import Footer from './common/Footer.tsx'
 import background from '/img/ball.webp'
+// import BackgroundParallax from './components/BackgroundParallax.tsx'
 import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {

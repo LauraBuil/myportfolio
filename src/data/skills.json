@@ -1,0 +1,55 @@
+{
+  "skills": {
+    "frontend": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "TailwindCSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "React Context",
+      "Zustand",
+      "Redux",
+      "Three.js"
+    ],
+    "backend": [
+      "Node.js",
+      "Express",
+      "REST API",
+      "GraphQL",
+      "MongoDB",
+      "PostgreSQL",
+      "TypeORM"
+    ],
+    "devops": [
+      "Docker",
+      "CI/CD"
+    ],
+    "workflow_et_methodologie": [
+      "Agile",
+      "Scrum",
+      "Gestion de projet",
+      "Green Code"
+    ],
+    "outils_et_design": [
+      "Git",
+      "Figma",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Blender"
+    ],
+    "marketing_et_visibilite": [
+      "SEO"
+    ],
+    "qualites_humaines": [
+      "Travail en équipe",
+      "Partage",
+      "Bienveillance",
+      "Patience",
+      "Persévérance",
+      "Apprentissage continu"
+    ]
+  }
+}

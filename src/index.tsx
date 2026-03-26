@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './assets/scss/main.scss'
-import HomePage from './pages/HomePage.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ProjectsList from './pages/projects/ProjectsList.tsx'
+import HomePage from "./pages/HomePage.tsx";
 
 //mettre une roulette aléatoire pour changer le tracer souris
 // mettre la forme de Ney
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '',
-                element: <HomePage />,
+                element: <HomePage />
             },
             {
                 path: '/project/:projectIndex',
